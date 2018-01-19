@@ -1,0 +1,110 @@
+html,body{
+	width:100%;
+	height:100%;
+  margin: 0;
+  color: white;
+
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+body {
+padding-top: 54px;
+  overflow-x: hidden;
+background-color: #000;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.col-lg-12{
+  padding: 0;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+.fixed{
+  position: relative;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  /*width: 100vw;
+  height: 100%;*/
+  background-color: #000;
+  /*background-image: url('');*/
+  /*background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.particles-container{
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.section1{
+  height: 100vh;
+}
+.section2{
+  height: 50px;
+  background-color: red;
+}
